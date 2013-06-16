@@ -1,17 +1,19 @@
+nbproject/
+doc/html/
+src/.deps/
+
+#build rules are generated from Makefile.in usig configure file
+Makefile
+
 # Object files
 *.o
 
-# Libraries
-*.lib
-*.a
+#Binaries
+*.as
+*.map
+*.axf
+*.hex
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
+#este seria el de make log
+*.txt
+!doc/file.txt
